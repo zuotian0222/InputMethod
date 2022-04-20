@@ -32,20 +32,9 @@ public:
 protected:
     bool eventFilter(QObject * w,QEvent *e);
 
-    static void messageHandler(QtMsgType type, const QMessageLogContext &context, const QString &msg);
-
-private slots:
-    void on_pushButton_clicked();
-
-    void on_pushButton_2_clicked();
-
 private:
     Ui::Widget *ui;
 
-    QTimer * timer;
-
     KeyBoard * keyboard;
-
-    static bool isConsoleable;
 };
 #endif // WIDGET_H
