@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>dict/dict_pinyin.dat</file>
+        <file>dict/dict_pinyin_user.dat</file>
+    </qresource>
+</RCC>
